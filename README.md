@@ -75,34 +75,6 @@ A premium, multi-page AI-powered recruitment system built with Streamlit that au
 - Gmail account with app password
 - Zoom account (optional, for interview scheduling)
 
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone <repository-url>
-   cd ai_recruitment_agents_project
-   ```
-
-2. **Create virtual environment**
-   ```bash
-   python -m venv venv
-   source venv/bin/activate  # On Windows: venv\Scripts\activate
-   ```
-
-3. **Install dependencies**
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-4. **Run the application**
-   ```bash
-   # Option 1: Use the launcher script
-   python run_recruitment_system.py
-   
-   # Option 2: Run directly
-   streamlit run ai_recruitment_system_pro.py
-   ```
-
 ### Configuration
 
 1. **OpenRouter Setup**
@@ -119,31 +91,6 @@ A premium, multi-page AI-powered recruitment system built with Streamlit that au
    - Create a Zoom app in the Zoom Marketplace
    - Get your Account ID, Client ID, and Client Secret
    - Enter these credentials for interview scheduling
-
-## 🎨 UI/UX Improvements
-
-### Premium Design
-- **Advanced Gradients**: Multi-color gradient backgrounds with texture overlays
-- **Enhanced Cards**: Hover effects and shadow animations
-- **Status Badges**: Gradient status indicators with animations
-- **Step Indicators**: Interactive progress tracking with icons
-- **Responsive Design**: Optimized for desktop, tablet, and mobile
-- **Custom Fonts**: Inter font family for modern typography
-- **Smooth Animations**: CSS transitions and hover effects
-
-### Enhanced User Experience
-- **Multi-Page Flow**: Logical progression through recruitment steps
-- **Real-time Feedback**: Instant status updates and notifications
-- **Data Persistence**: Session-based data storage
-- **Visual Analytics**: Charts and graphs for recruitment insights
-- **Intuitive Navigation**: Sidebar navigation with quick stats
-
-### Improved Functionality
-- **Batch Processing**: Handle multiple candidates efficiently
-- **Data Visualization**: Interactive charts and metrics
-- **Error Handling**: Graceful error management with user-friendly messages
-- **Progress Tracking**: Visual indicators for each step
-- **Quick Actions**: One-click operations for common tasks
 
 ## 📋 Usage Flow
 
@@ -220,25 +167,3 @@ The system includes predefined requirements for three key roles:
 - **Mobile App**: Native mobile application
 - **Advanced Scheduling**: Calendar integration and conflict resolution
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Add tests if applicable
-5. Submit a pull request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 🆘 Support
-
-For support and questions:
-- Create an issue in the repository
-- Check the documentation
-- Review the configuration guide
-
----
-
-**Built with ❤️ using Streamlit and AI**
